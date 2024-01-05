@@ -19,7 +19,7 @@
 	<div class="kotak_login">
 		<p class="tulisan_login">Silahkan login</p>
  
-		<form action="cek_login.php" method="post">
+		<form action="cek__login.php" method="post">
 			<label>Username</label>
 			<input type="text" name="username" class="form_login" placeholder="Username .." required="required">
  
@@ -31,7 +31,7 @@
 			<br/>
 			<br/>
 			<center>
-				<a class="link" href="https://www.malasngoding.com">kembali</a>
+				<a class="link" href="http://localhost/jadwaldosen/">kembali</a>
 			</center>
 		</form>
 		

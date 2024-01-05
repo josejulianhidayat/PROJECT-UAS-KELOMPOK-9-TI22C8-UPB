@@ -27,7 +27,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level'] = "admin";
 		// alihkan ke halaman dashboard admin
-		header("location:halaman_admin.php");
+		header("location:halaman__admin.php");
  
 	// cek jika user login sebagai pegawai
 	}else if($data['level']=="pegawai"){
@@ -35,7 +35,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level'] = "pegawai";
 		// alihkan ke halaman dashboard pegawai
-		header("location:halaman_pegawai.php");
+		header("location:halaman__pegawai.php");
  
 	// cek jika user login sebagai pengurus
 	}else if($data['level']=="pengurus"){
@@ -43,7 +43,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level'] = "pengurus";
 		// alihkan ke halaman dashboard pengurus
-		header("location:halaman_pengurus.php");
+		header("location:halaman__pengurus.php");
  
 	}else{
  
